@@ -26,7 +26,9 @@
 - Spock's technical approach has been designed and is being tested to ensure that it is secure, reliable, and compatible with different browsers and web applications
 
 # Related Work
-- Other passwordless authentication solutions available in the market, such as biometric authentication and one-time passwords
-- These methods still require users to remember some form of login credentials or use specialized hardware devices
-- Public/private key authentication offers a completely passwordless solution that eliminates the need for users to remember any login credentials
-- Spock aims to build on this concept and offer a more user-friendly and convenient authentication system for web applications
+- Passkeys (more focus on hardware)
+- Nostr (identity-bound keys)
+- SSOs (needs trust in another party, is also just a one size fits all cookie system of sorts)
+- Ethereum (is blockchain specific, but uses ECDSA for signatures)
+
+Nothing similar exists
